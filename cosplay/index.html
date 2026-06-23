@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -138,9 +137,9 @@
         <nav class="nav">
             <div class="logo">牧 千夜</div>
             <ul class="nav-links">
-                <li><a href="/raw/">ホーム</a></li>
-                <li><a href="/raw/bikini/">ビキニ</a></li>
-                <li><a href="/raw/cosplay/">コスプレ</a></li>
+                <li><a href="/raw-cosplay/">ホーム</a></li>
+                <li><a href="/raw-cosplay/bikini/">ビキニ</a></li>
+                <li><a href="/raw-cosplay/cosplay/">コスプレ</a></li>
                 <li><a href="#">プロフィール</a></li>
                 <li><a href="#">お問い合わせ</a></li>
             </ul>
@@ -149,15 +148,15 @@
 
     <main class="main">
         <div class="breadcrumb">
-            <a href="/raw/">ホーム</a> &gt; <strong>ビキニ作品集</strong>
+            <a href="/raw-cosplay/">ホーム</a> &gt; <strong>ビキニ作品集</strong>
         </div>
 
         <h2 class="section-title">📷 ビキニ作品集</h2>
 
         <div class="tab-menu">
-            <a href="/raw/">すべて</a>
-            <a href="/raw/bikini/">ビキニ</a>
-            <a href="/raw/cosplay/">コスプレ</a>
+            <a href="/raw-cosplay/">すべて</a>
+            <a href="/raw-cosplay/bikini/">ビキニ</a>
+            <a href="/raw-cosplay/cosplay/">コスプレ</a>
         </div>
 
         <div class="gallery" id="gallery-container">
@@ -177,10 +176,9 @@
     </footer>
 
     <script>
-        // ====================================================
-        const FOLDER = 'cosplay'; // Thư mục ảnh
+        const FOLDER = 'cosplay';
         const REPO_OWNER = 'toanganit';
-        const REPO_NAME = 'raw';
+        const REPO_NAME = 'raw-cosplay';
         const GITHUB_API = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FOLDER}`;
         const IMG_EXTENSIONS = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
 
