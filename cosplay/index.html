@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="牧 千夜の公式ウェブサイト。オリジナルコスプレ写真作品の公開。">
-    <title>牧 千夜 | ビキニ作品集</title>
+    <title>牧 千夜 | コスプレ作品集</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -136,10 +136,11 @@
     <header class="header">
         <nav class="nav">
             <div class="logo">牧 千夜</div>
+            <!-- MENU COSPLAY: đường dẫn tương đối -->
             <ul class="nav-links">
-                <li><a href="/raw-cosplay/">ホーム</a></li>
-                <li><a href="/raw-cosplay/bikini/">ビキニ</a></li>
-                <li><a href="/raw-cosplay/cosplay/">コスプレ</a></li>
+                <li><a href="../">ホーム</a></li>
+                <li><a href="../bikini/">ビキニ</a></li>
+                <li><a href="./">コスプレ</a></li>
                 <li><a href="#">プロフィール</a></li>
                 <li><a href="#">お問い合わせ</a></li>
             </ul>
@@ -148,15 +149,15 @@
 
     <main class="main">
         <div class="breadcrumb">
-            <a href="/raw-cosplay/">ホーム</a> &gt; <strong>ビキニ作品集</strong>
+            <a href="../">ホーム</a> &gt; <strong>コスプレ作品集</strong>
         </div>
 
-        <h2 class="section-title">📷 ビキニ作品集</h2>
+        <h2 class="section-title">📷 コスプレ作品集</h2>
 
         <div class="tab-menu">
-            <a href="/raw-cosplay/">すべて</a>
-            <a href="/raw-cosplay/bikini/">ビキニ</a>
-            <a href="/raw-cosplay/cosplay/">コスプレ</a>
+            <a href="../">すべて</a>
+            <a href="../bikini/">ビキニ</a>
+            <a href="./">コスプレ</a>
         </div>
 
         <div class="gallery" id="gallery-container">
@@ -176,7 +177,7 @@
     </footer>
 
     <script>
-        const FOLDER = 'cosplay';
+        const FOLDER = 'cosplay';  // ĐÃ ĐỔI THÀNH COSPLAY
         const REPO_OWNER = 'toanganit';
         const REPO_NAME = 'raw-cosplay';
         const GITHUB_API = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FOLDER}`;
